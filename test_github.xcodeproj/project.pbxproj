@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76E757CD23723A39002BBB53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E757CC23723A39002BBB53 /* main.cpp */; };
+		76E757D523723C80002BBB53 /* lol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76E757D323723C80002BBB53 /* lol.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		76E757C923723A39002BBB53 /* test_github */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test_github; sourceTree = BUILT_PRODUCTS_DIR; };
 		76E757CC23723A39002BBB53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		76E757D323723C80002BBB53 /* lol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lol.cpp; sourceTree = "<group>"; };
+		76E757D423723C80002BBB53 /* lol.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lol.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				76E757CC23723A39002BBB53 /* main.cpp */,
+				76E757D323723C80002BBB53 /* lol.cpp */,
+				76E757D423723C80002BBB53 /* lol.hpp */,
 			);
 			path = test_github;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76E757CD23723A39002BBB53 /* main.cpp in Sources */,
+				76E757D523723C80002BBB53 /* lol.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
